@@ -1,0 +1,24 @@
+/* src/PerformanceTable.css */
+.performance-table-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    border: black;
+  }
+  
+  .performance-table-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .performance-progress {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .performance-progress-bar {
+    background-color: #1890ff;
+  }

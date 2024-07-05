@@ -1,0 +1,45 @@
+/* Ensuring the body and html take the full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5; /* Light grey background */
+}
+
+/* Extending the perf-page to take full height */
+.perf-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+  background-color: inherit; /* Inherit the background color from body */
+}
+
+/* Adjusting the container size */
+.perf-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%; /* Adjust the container width as needed */
+  height: 70%; /* Adjust the container height as needed */
+  background-color: #ffffff; /* White background for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for better visualization */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  margin-right: 700px;
+  margin-bottom: 100px; /* Padding around the chart */
+}
+
+
+/* Styling for the label */
+.perf-label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.stats{
+  margin-right: -700px;
+}
