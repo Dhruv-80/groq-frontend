@@ -19,7 +19,8 @@ const ModelButton = ({ model, selectedModel, onClick, imageSrc }) => {
         alignItems: 'center',
         margin: '0 20px', // Margin for spacing
         boxShadow: isSelected ? '0 0 0 10px rgba(24, 144, 255, 0.2)' : 'none', // Optional shadow for selected button
-        transition: 'border 0.3s ease, box-shadow 0.3s ease', // Smooth transition
+        transition: 'border 0.3s ease, box-shadow 0.3s ease',
+         // Smooth transition
       }}
     >
       <img 

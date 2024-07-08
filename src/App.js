@@ -36,7 +36,7 @@ function App() {
             <div className="App">
               <h1>Ask a Question</h1>
               <div style={{ display: 'flex', justifyContent: 'center', margin: '20px 0', gap: '30px' }}>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '30px', marginRight: '-600px' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '30px', marginRight: '-100px' }}>
                   <ModelButton
                     model="gemma-7b-it"
                     selectedModel={model}
